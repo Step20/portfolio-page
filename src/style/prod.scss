@@ -1,0 +1,23 @@
+.project-content {
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .prod-card {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    .prod-card-title {
+      font-weight: 700;
+    }
+    .prod-card-sub {
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+    .prod-card-text {
+      font-weight: 300;
+      font-size: 1rem;
+      opacity: 0.7;
+    }
+  }
+}

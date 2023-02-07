@@ -1,0 +1,38 @@
+@import "home";
+@import "about";
+@import "prod";
+@import "nav";
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #7033ff, rgb(17, 16, 16));
+  color: white;
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+.other {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 16, 16);
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}

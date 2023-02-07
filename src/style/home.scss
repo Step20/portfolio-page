@@ -1,0 +1,38 @@
+.home-content {
+  h1 {
+    font-size: 6rem;
+    font-weight: 800;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      font-size: 5rem;
+      margin-right: 3rem;
+    }
+  }
+  .home-arrow {
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    cursor: pointer;
+    overflow: hidden;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  .home-icons {
+    li {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}

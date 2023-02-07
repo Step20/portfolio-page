@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import HorizontalScroll from "react-scroll-horizontal";
+import "./style/main.scss";
+import Home from "./components/HomeComponent";
+import Projects from "./components/ProjectsComponent";
+import About from "./components/AboutComponent";
+import { PageNav } from "./components/NavComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HorizontalScroll reverseScroll={true} pageLock={true}>
+        <div className="main">
+          <Home />
+        </div>
+        <div className="other">
+          <About />
+        </div>
+        <div className="other">
+          <Projects />
+        </div>
+      </HorizontalScroll>
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.about-content {
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      font-size: 5rem;
+      margin-right: 8.111%;
+    }
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  h4 {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+  }
+  .about-icons {
+    font-size: 5rem;
+    li {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
